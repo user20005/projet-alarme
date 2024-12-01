@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Projet Électronique</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            position: sticky;
+            top: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            color: white;
+            display: block;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            height: 100vh;
+            padding-top: 50px;
+        }
+
+        footer {
+            background-color: #f1f1f1;
+            padding: 0px;
+            text-align: center;
+        }
+        .video-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .video {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+        
+        .video h3 {
+            text-align: center;
+        }
+        
+        video {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>SAE : 1.01 Alarme </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#schema">Schéma</a></li>
+            <li><a href="#code">video</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="schema">
+            <h2>Schéma Électronique</h2>
+            <img src="schema.png" alt="Schéma du projet">
+        </section>
+        <section id="code">
+            <h2>Vidéos</h2>
+            <div class="video-container">
+                <div class="video">
+                    <h3>Video Compteur</h3>
+                    <video controls>
+                        <source src="./Vidéo Compteur.mp4" type="video/mp4" >
+                        Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
+                </div>
+                <div class="video">
+                    <h3>Video Alarme Complète</h3>
+                    <video controls>
+                        <source src="./Vidéo Alarme Complète.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la balise vidéo.
+                    </video>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Marecar &&
+            Martinez
+        </p>
+    </footer>
+</body>
+
+</html>
