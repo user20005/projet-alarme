@@ -1,0 +1,1 @@
+Ce projet consiste en la conception d'un système d'alarme en VHDL, réalisé durant mon IUT. Le système a été simulé sur une carte DE1 de la marque Altera. Le but de ce projet était de mettre en œuvre des compétences en programmation VHDL et en simulation sur du matériel FPGA.
